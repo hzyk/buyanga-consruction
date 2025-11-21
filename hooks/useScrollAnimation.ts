@@ -1,0 +1,31 @@
+
+import React, { useState, useEffect, useRef } from 'react';
+
+export const useScrollAnimation = (options?: IntersectionObserverInit) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const elementRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setIsVisible(true);
+        if (elementRef.current) {
+          observer.unobserve(elementRef.current);
+        }
+      }
+    }, options);
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
+
+    return () => {
+      if (elementRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        observer.unobserve(elementRef.current);
+      }
+    };
+  }, [options]);
+
+  return { elementRef, isVisible };
+};
