@@ -4,6 +4,17 @@ import React from 'react';
 
 // Local images from the `public/` folder (percent-encoded to handle spaces)
 export const LOCAL_IMAGES = [
+  '/IMG-20251121-WA0010.jpg',
+  '/IMG-20251121-WA0011.jpg',
+  '/IMG-20251121-WA0012.jpg',
+  '/IMG-20251121-WA0013.jpg',
+  '/IMG-20251121-WA0014.jpg',
+  '/IMG-20251121-WA0015.jpg',
+  '/IMG-20251121-WA0016.jpg',
+  '/IMG-20251121-WA0017.jpg',
+  '/IMG-20251121-WA0018.jpg',
+  '/IMG-20251121-WA0019.jpg',
+  '/IMG-20251121-WA0020.jpg',
   '/WhatsApp%20Image%202025-11-18%20at%2004.45.58_fd2f5ad2.jpg',
   '/WhatsApp%20Image%202025-11-18%20at%2004.45.59_b6e04bc0.jpg',
   '/WhatsApp%20Image%202025-11-18%20at%2004.46.01_0c47a306.jpg',
@@ -132,15 +143,15 @@ export const SERVICES: Service[] = [
 ];
 
 export const PROJECTS: Project[] = [
-  { id: 1, title: 'Lakeside Residential Complex', category: 'Residential', description: 'A multi-unit housing development with modern amenities.', scope: 'Full building construction from foundation to finishing.', images: [LOCAL_IMAGES[0], LOCAL_IMAGES[1], LOCAL_IMAGES[2]]},
-  { id: 2, title: 'Downtown Corporate Tower', category: 'Commercial', description: 'A 20-story office building featuring a state-of-the-art glass facade.', scope: 'Structural engineering, project management, and construction.', images: [LOCAL_IMAGES[3], LOCAL_IMAGES[4]]},
-  { id: 3, title: 'Highway 401 Expansion', category: 'Civil Works', description: 'Expansion of a major highway to ease traffic congestion.', scope: 'Civil engineering, roadworks, and bridge construction.', images: [LOCAL_IMAGES[1], LOCAL_IMAGES[2], LOCAL_IMAGES[3]]},
-  { id: 4, title: 'Heritage Building Renovation', category: 'Commercial', description: 'Modernization of a historic downtown building while preserving its facade.', scope: 'Renovation, structural reinforcement, and interior finishing.', images: [LOCAL_IMAGES[4]]},
-  { id: 5, title: 'Eco-Villa Community', category: 'Residential', description: 'A community of sustainable homes with solar power and rainwater harvesting.', scope: 'Sustainable construction and project management.', images: [LOCAL_IMAGES[0], LOCAL_IMAGES[1]]},
-  { id: 6, title: 'City Main Water Pipeline', category: 'Civil Works', description: 'Installation of a new primary water pipeline for the metropolitan area.', scope: 'Civil engineering, excavation, and utility installation.', images: [LOCAL_IMAGES[2], LOCAL_IMAGES[3], LOCAL_IMAGES[4]]},
-  { id: 7, title: 'The Grand Mall', category: 'Commercial', description: 'Construction of a large shopping mall with over 200 retail spaces.', scope: 'Full building construction, structural engineering, and project management.', images: [LOCAL_IMAGES[1], LOCAL_IMAGES[2]]},
-  { id: 8, title: 'Riverside Park Bridge', category: 'Civil Works', description: 'A pedestrian bridge connecting two parts of a city park.', scope: 'Civil engineering and structural design.', images: [LOCAL_IMAGES[3], LOCAL_IMAGES[4]]},
-  { id: 9, title: 'Modern Suburban Homes', category: 'Residential', description: 'Development of 50 single-family homes in a new suburb.', scope: 'Building construction and site infrastructure.', images: [LOCAL_IMAGES[0], LOCAL_IMAGES[1]]},
+  { id: 1, title: 'Kampala Heights', category: 'Commercial', description: 'A modern mixed-use tower in the heart of the city.', scope: 'Full building construction from foundation to finishing.', images: [LOCAL_IMAGES[0], LOCAL_IMAGES[11], LOCAL_IMAGES[12]]},
+  { id: 2, title: 'Nile View Residences', category: 'Residential', description: 'River-facing residential apartments with contemporary design.', scope: 'Structural engineering, interiors, and landscaping.', images: [LOCAL_IMAGES[1], LOCAL_IMAGES[13]]},
+  { id: 3, title: 'Munyonyo Bay Tower', category: 'Commercial', description: 'A premium waterfront office tower with panoramic views.', scope: 'High-rise construction and finishing works.', images: [LOCAL_IMAGES[2], LOCAL_IMAGES[14], LOCAL_IMAGES[3]]},
+  { id: 4, title: 'Ubuntu Court', category: 'Residential', description: 'A gated community with apartments inspired by local architecture.', scope: 'Renovation, structural reinforcement, and interior finishing.', images: [LOCAL_IMAGES[4]]},
+  { id: 5, title: 'Karibu Eco Villas', category: 'Residential', description: 'Sustainable villas with solar and rainwater harvesting.', scope: 'Sustainable construction and project management.', images: [LOCAL_IMAGES[5], LOCAL_IMAGES[6]]},
+  { id: 6, title: 'Mirembe Plaza', category: 'Commercial', description: 'A contemporary plaza housing retail and office spaces.', scope: 'Site development, construction, and finishes.', images: [LOCAL_IMAGES[7], LOCAL_IMAGES[8], LOCAL_IMAGES[9]]},
+  { id: 7, title: 'Mugisha Corporate Plaza', category: 'Commercial', description: 'A business hub designed for modern enterprises.', scope: 'Full building construction, structural engineering, and project management.', images: [LOCAL_IMAGES[1], LOCAL_IMAGES[2]]},
+  { id: 8, title: 'Market Square Arcade', category: 'Commercial', description: 'A multi-level retail and community shopping arcade.', scope: 'Construction and retail fit-outs.', images: [LOCAL_IMAGES[3], LOCAL_IMAGES[4]]},
+  { id: 9, title: 'Garden Court Apartments', category: 'Residential', description: 'Comfortable suburban apartment blocks with green spaces.', scope: 'Building construction and site infrastructure.', images: [LOCAL_IMAGES[0], LOCAL_IMAGES[5]]},
 ];
 
 

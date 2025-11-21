@@ -83,14 +83,34 @@ const ContactPage: React.FC = () => {
                 <div className="bg-gray-100 p-8 rounded-lg">
                     <h3 className="text-2xl font-serif font-bold text-deep-navy mb-4">Contact Information</h3>
                     <div className="space-y-4 text-lg">
+                        <p className="flex items-center"><span className="font-bold w-28">Contact:</span>Asaadi senior</p>
                         <p className="flex items-center"><span className="font-bold w-28">Address:</span>Kampala, Uganda</p>
                         <p className="flex items-center"><span className="font-bold w-28">Email:</span> <a href="mailto:info@buyungagroup.com" className="text-teal-accent hover:underline">info@buyungagroup.com</a></p>
-                        <p className="flex items-center"><span className="font-bold w-28">Phone:</span> <a href="tel:+256755390643" className="text-teal-accent hover:underline">+256 755 390643</a></p>
+                        <p className="flex items-center"><span className="font-bold w-28">Phone:</span> <a href="tel:+256752402404" className="text-teal-accent hover:underline">+256 752 402404</a></p>
                     </div>
-                    <a href="https://wa.me/256755390643" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center bg-green-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-600 transition-colors">
-                        <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.267.655 4.398 1.905 6.166l-1.138 4.162 4.273-1.12z"/></svg>
-                        Chat on WhatsApp
-                    </a>
+                    <div className="bg-gray-100 p-6 sm:p-8 rounded-lg">
+                        <h3 className="text-2xl font-serif font-bold text-deep-navy mb-4">Contact Information</h3>
+
+                        {/* Representative block: image + name (responsive) */}
+                        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-4">
+                            <img src="/asadi.jpg" alt="Asaadi senior" className="w-20 h-20 rounded-full object-cover flex-shrink-0" />
+                            <div>
+                                <p className="text-lg font-bold">Asaadi senior</p>
+                                <p className="text-sm text-steel-navy">Company Representative</p>
+                                <p className="mt-2 text-sm"><span className="font-bold">Phone:</span> <a href="tel:+256752402404" className="text-teal-accent hover:underline">0752402404</a></p>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4 text-lg">
+                            <p className="flex items-start sm:items-center"><span className="font-bold w-28">Address:</span><span>Kampala, Uganda</span></p>
+                            <p className="flex items-start sm:items-center"><span className="font-bold w-28">Email:</span> <a href="mailto:info@buyungagroup.com" className="text-teal-accent hover:underline">info@buyungagroup.com</a></p>
+                            <p className="flex items-start sm:items-center"><span className="font-bold w-28">Office:</span> <a href="tel:+256755390643" className="text-teal-accent hover:underline">+256 755 390643</a></p>
+                        </div>
+                        <a href="https://wa.me/256752402404" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center bg-green-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-600 transition-colors">
+                            <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.267.655 4.398 1.905 6.166l-1.138 4.162 4.273-1.12z"/></svg>
+                            Chat with Asaadi on WhatsApp
+                        </a>
+                    </div>
                 </div>
                 <div className="bg-gray-100 p-8 rounded-lg">
                     <h3 className="text-2xl font-serif font-bold text-deep-navy mb-4">Business Hours</h3>
